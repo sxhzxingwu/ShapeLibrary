@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WxWView">
+        <attr name="radius" format="dimension" />
+        <attr name="background"/>
+        <attr name="stroke_width" format="dimension" />
+        <attr name="stroke_color" format="reference|color" />
+        <attr name="ripple_color" format="reference|color" />
+        <attr name="radius_l_u" format="dimension" />
+        <attr name="radius_l_d" format="dimension" />
+        <attr name="radius_r_u" format="dimension" />
+        <attr name="radius_r_d" format="dimension" />
+    </declare-styleable>
+
+</resources>
