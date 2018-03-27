@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.android.wxw.lib.shape.WLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        android:padding="10dp"
+        app:radius="10dp"
+        app:background="@color/color_bg">
+
+        <com.android.wxw.lib.shape.WImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:text="Hello World!"
+            app:radius="5dp"
+            app:stroke_color="#ffff0000"
+            app:stroke_width="1dp" />
+
+        <com.android.wxw.lib.shape.WTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WTextView"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            app:radius_l_d="5dp"
+            app:radius_l_u="5dp"
+            app:stroke_color="#ffff0000"
+            app:stroke_width="1dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PieView"
+            android:onClick="onClick"/>
+
+    </com.android.wxw.lib.shape.WLinearLayout>
+
+
+</LinearLayout>
